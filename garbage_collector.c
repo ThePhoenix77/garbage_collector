@@ -57,7 +57,7 @@ void free_all(memory_context *context)
     context->head = NULL;
 }
 
-void t(){system("leaks a.out");}
+/*void t(){system("leaks a.out");}
 int main() {
     atexit(t);
     memory_context context = {NULL}; // Initialize context
@@ -75,3 +75,4 @@ int main() {
     free_all(&context);
     return 0;
 }
+*/
